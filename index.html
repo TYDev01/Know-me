@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="description" content="Anthony — web3 & AI developer building decentralised apps and practical AI tools." />
+    <title>Anthony — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top">A.</a>
+      <nav class="nav">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle colour theme">
+        <span class="theme-toggle__dot"></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow reveal">Portfolio — 2026</p>
+        <h1 class="hero__title reveal">
+          Anthony.<br />
+          <span class="muted">Web3 &amp; AI developer building decentralised apps and practical AI tools.</span>
+        </h1>
+        <p class="hero__lead reveal">
+          I design and ship products across the Stacks, Celo and EVM ecosystems —
+          from privacy wallets to parametric insurance dApps — and tools that put
+          AI to real, everyday use. Currently open to select freelance work.
+        </p>
+        <a class="link-arrow reveal" href="#work">See selected work</a>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section__head reveal">
+          <h2>Selected Work</h2>
+          <span class="section__count"></span>
+        </div>
+        <ul class="work-list" id="work-list"></ul>
+      </section>
+
+      <section id="about" class="section section--split">
+        <div class="section__head reveal">
+          <h2>About</h2>
+        </div>
+        <div class="about reveal">
+          <p>
+            I'm a developer working at the intersection of blockchain and AI. I
+            like turning ambitious, complex ideas — trustless insurance, privacy
+            wallets, local-first AI — into products that feel simple to use.
+          </p>
+          <p>
+            My approach is straightforward: understand the problem deeply, remove
+            everything that isn't essential, and ship something people actually
+            enjoy using. Growth is inevitable.
+          </p>
+          <dl class="facts">
+            <div><dt>Focus</dt><dd>Web3 · dApps · AI tooling</dd></div>
+            <div><dt>Stack</dt><dd>TypeScript · Rust · Solidity · Clarity</dd></div>
+            <div><dt>Based in</dt><dd>Lagos, Nigeria</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact reveal">
+        <h2>Let's work together.</h2>
+        <a class="contact__email" href="mailto:icodes001@gmail.com">icodes001@gmail.com</a>
+        <ul class="socials">
+          <li><a href="https://github.com/TYDev01" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://twitter.com/code_Hashira" target="_blank" rel="noopener">Twitter</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Anthony</span>
+      <span>Built with care.</span>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
